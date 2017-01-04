@@ -4,10 +4,10 @@
 
 <IfModule mod_expires.c>
  ExpiresActive On
- <FilesMatch "\.(ico|jpg|jpeg|png|gif)$">
+ <FilesMatch "\.(ico|jpg|jpeg|png|gif|svg)$">
   ExpiresDefault "access plus 2 weeks"
  </FilesMatch>
- <FilesMatch "\.(js|css|swf)$">
+ <FilesMatch "\.(js|css)$">
   ExpiresDefault "access plus 2 days"
  </FilesMatch>
 </IfModule>

@@ -1,11 +1,15 @@
 {
-  "assets/css/global.css": "assets/css/global-72fc7fbb37.css",
+  "assets/css/global.css": "assets/css/global-c058351cb7.css",
   "assets/css/grid-view.css": "assets/css/grid-view-163a339b42.css",
-  "assets/css/home.css": "assets/css/home-d8874c5bac.css",
+  "assets/css/home.css": "assets/css/home-dc2a1bfcd0.css",
   "assets/css/reset.css": "assets/css/reset-efd6682f1c.css",
-  "assets/css/style.css": "assets/css/style-e344f50c69.css",
+  "assets/css/style.css": "assets/css/style-555468571b.css",
   "assets/img/backup_sprite.svg": "assets/img/backup_sprite-df9142b1e1.svg",
+  "assets/img/house.svg": "assets/img/house-b2be4f60d3.svg",
+  "assets/img/learning.svg": "assets/img/learning-108548a1f7.svg",
+  "assets/img/pedeae.svg": "assets/img/pedeae-800214901d.svg",
   "assets/img/rodolfo.png": "assets/img/rodolfo-335ef80107.png",
   "assets/img/rodolfo2.png": "assets/img/rodolfo2-1b54b563f4.png",
-  "assets/img/sprite.svg": "assets/img/sprite-e437648052.svg"
+  "assets/img/school-bus.svg": "assets/img/school-bus-1e27107958.svg",
+  "assets/img/sprite.svg": "assets/img/sprite-b97f0d69f7.svg"
 }

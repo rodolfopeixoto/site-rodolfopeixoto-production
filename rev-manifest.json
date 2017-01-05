@@ -1,14 +1,16 @@
 {
-  "assets/css/base.css": "assets/css/base-f0edc52f80.css",
-  "assets/css/global.css": "assets/css/global-fc5aba050b.css",
+  "assets/css/base.css": "assets/css/base-46ebb8a992.css",
+  "assets/css/curriculum.css": "assets/css/curriculum-75fafe09cd.css",
+  "assets/css/global.css": "assets/css/global-3b8521f27d.css",
   "assets/css/grid-view.css": "assets/css/grid-view-163a339b42.css",
-  "assets/css/home.css": "assets/css/home-dc2a1bfcd0.css",
+  "assets/css/home.css": "assets/css/home-beba0ba77d.css",
   "assets/css/projetos.css": "assets/css/projetos-2455c3b666.css",
   "assets/css/reset.css": "assets/css/reset-efd6682f1c.css",
-  "assets/css/skills.css": "assets/css/skills-cc980f6e83.css",
-  "assets/css/style.css": "assets/css/style-eaa91a4e9d.css",
-  "assets/css/style2.css": "assets/css/style2-59737d69fd.css",
-  "assets/css/style3.css": "assets/css/style3-e4d4bf69a6.css",
+  "assets/css/skills.css": "assets/css/skills-70d9f701f6.css",
+  "assets/css/style.css": "assets/css/style-442a8d9b6e.css",
+  "assets/css/style2.css": "assets/css/style2-050efb182c.css",
+  "assets/css/style3.css": "assets/css/style3-15be4a2374.css",
   "assets/img/sprite.svg": "assets/img/sprite-b97f0d69f7.svg",
-  "assets/img/sprite_projeto.svg": "assets/img/sprite_projeto-f6816aec89.svg"
+  "assets/img/sprite_projeto.svg": "assets/img/sprite_projeto-f6816aec89.svg",
+  "assets/js/skills.js": "assets/js/skills-d41d8cd98f.js"
 }

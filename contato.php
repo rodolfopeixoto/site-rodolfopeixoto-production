@@ -12,12 +12,11 @@
   // Compose a simple HTML email message
 $message = '<html><body>';
 $message .= '<h1 style="color:#f40;">Oi ,Rodolfo!</h1>';
-$message .= '<p style="color:#080;font-size:18px;">Contato</p>';
-$message .= '<p style="color:#080;font-size:18px;">Nome: $nome</p>';
-$message .= '<p style="color:#080;font-size:18px;">Email: $email</p>';
-$message .= '<p style="color:#080;font-size:18px;">telefone: $tel</p>';
-$message .= '<p style="color:#080;font-size:18px;">Mensagem:<br>
- $message</p>';
+$message .= '<p style="color:#444;font-size:18px;">Formulário de Contato</p>';
+$message .= '<p style="color:#444;font-size:18px;">Nome: ' . $nome . ' </p>';
+$message .= '<p style="color:#444;font-size:18px;">Email: ' . $email . ' </p>';
+$message .= '<p style="color:#444;font-size:18px;">telefone: ' . $tel . ' </p>';
+$message .= '<p style="color:#444;font-size:18px;">Mensagem:<br> ' . $message . ' </p>';
 $message .= '</body></html>';
 
 // To send HTML mail, the Content-type header must be set
@@ -33,12 +32,17 @@ $status = mail($to,$subject, $message,$headers);
 
   if($_POST['submit'] && $humano == '10'){
     if($status){
+     header('Refresh: 0.5; URL=contato.html');
      echo "<script> alert('Email enviado com sucesso. Aguarde no máximo 1 dia útil para que possa entrar em contato.'); </script>";
+
     }else{
+     header('Refresh: 0.5; URL=contato.html');
     echo '<p>Email não enviado. Envie um email para contato@rodolfopeixoto.com.br</p>';
     }
   }else if ($_POST['submit'] && $humano != '10') {
+     header('Refresh: 0.5; URL=contato.html');
      echo "<script> alert('A resposta do anti-spam está incorreta.'); </script>";
+     header('Location: contato.html');
     }
 ?>
 

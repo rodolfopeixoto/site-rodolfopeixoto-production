@@ -13,12 +13,14 @@
   // Compose a simple HTML email message
 $message = '<html><body>';
 $message .= '<h1 style="color:#f40;">Oi ,Rodolfo!</h1>';
-$message .= '<p style="color:#080;font-size:18px;">Orçamento</p>';
-$message .= '<p style="color:#080;font-size:18px;">Nome: $nome</p>';
-$message .= '<p style="color:#080;font-size:18px;">Email: $email</p>';
-$message .= '<p style="color:#080;font-size:18px;">telefone: $tel</p>';
-$message .= '<p style="color:#080;font-size:18px;">Nome do Projeto: $project_name</p>';
-$message .= '<p style="color:#080;font-size:18px;">Descrição do Projeto: $project_description</p>';
+$message .= '<p style="color:#444;font-size:18px;">Formulário de Orçamento</p>';
+
+$message .= '<p style="color:#444;font-size:18px;">Nome: ' . $name . ' </p>';
+$message .= '<p style="color:#444;font-size:18px;">Email: ' . $email . ' </p>';
+$message .= '<p style="color:#444;font-size:18px;">telefone: ' . $tel . ' </p>';
+$message .= '<p style="color:#444;font-size:18px;">Nome do Projeto:<br> ' . $project_name . ' </p>';
+$message .= '<p style="color:#444;font-size:18px;">Descrição do Projeto:<br> ' . $project_description . ' </p>';
+
 $message .= '</body></html>';
 
 // To send HTML mail, the Content-type header must be set
@@ -34,11 +36,14 @@ $status = mail($to,$subject, $message, $headers);
 
   if($_POST['submit'] && $humano == '5'){
     if($status){
+         header('Refresh: 1; URL=orcamento.html');
          echo '<p>Orçamento enviado com sucesso. Aguarde no máximo 72 horas úteis para que possa entrar em contato.</p>';
     }else{
+     header('Refresh: 0.5; URL=orcamento.html');
      echo "<script> alert('Email não enviado. Envie um email para contato@rodolfopeixoto.com.br'); </script>";
     }
   }else if ($_POST['submit'] && $humano != '5') {
+     header('Refresh: 1; URL=orcamento.html');
      echo "<script> alert('A resposta do anti-spam está incorreta.'); </script>";
     }
 ?>

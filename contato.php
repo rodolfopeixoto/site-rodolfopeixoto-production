@@ -8,7 +8,6 @@
   $to       = "rodolfog.peixoto@gmail.com";
   $subject = "Contato - Site Rodolfo Peixoto";
 
-  $body = "FROM $name\n Email: $email\n Mensagem:\n $message";
 
   // Compose a simple HTML email message
 $message = '<html><body>';
@@ -22,23 +21,26 @@ $message .= '<p style="color:#080;font-size:18px;">Mensagem:<br>
 $message .= '</body></html>';
 
 // To send HTML mail, the Content-type header must be set
-$headers  = 'MIME-Version: 1.0' . "\r\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+$headers = "MIME-Version: 1.0\r\n";
+$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
 // Create email headers
-$headers .= 'From: '.$from."\r\n".
-    'Reply-To: '.$from."\r\n" .
+$headers .= 'From: '.$email."\r\n".
+    'Reply-To: '.$email."\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
-
+$status = mail($to,$subject, $message,$headers);
 
   if($_POST['submit'] && $humano == '10'){
-    if(mail($to,$subject, $body,$headers)){
-         echo '<p>Email enviado com sucesso. Aguarde no máximo 1 dia útil para que possa entrar em contato.</p>';
+    if($status){
+         echo '<script> alert('Email enviado com sucesso. Aguarde no máximo 1 dia útil para que possa entrar em contato.'); </script>';
     }else{
     echo '<p>Email não enviado. Envie um email para contato@rodolfopeixoto.com.br</p>';
     }
   }else if ($_POST['submit'] && $humano != '10') {
-     echo '<p>A resposta do anti-spam está incorreta.</p>';
+     echo '<script>alert('A resposta do anti-spam está incorreta.');</script>';
     }
 ?>
+
+
+

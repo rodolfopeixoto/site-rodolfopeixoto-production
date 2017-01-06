@@ -22,23 +22,23 @@ $message .= '<p style="color:#080;font-size:18px;">Descrição do Projeto: $proj
 $message .= '</body></html>';
 
 // To send HTML mail, the Content-type header must be set
-$headers  = 'MIME-Version: 1.0' . "\r\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+$headers = "MIME-Version: 1.0\r\n";
+$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
 // Create email headers
 $headers .= 'From: '.$from."\r\n".
     'Reply-To: '.$from."\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
-
+$status = mail($to,$subject, $message, $headers);
 
   if($_POST['submit'] && $humano == '5'){
-    if(mail($to,$subject, $message, $headers)){
+    if($status){
          echo '<p>Orçamento enviado com sucesso. Aguarde no máximo 72 horas úteis para que possa entrar em contato.</p>';
     }else{
-    echo '<p>Email não enviado. Envie um email para contato@rodolfopeixoto.com.br</p>';
+    echo '<script>alert('Email não enviado. Envie um email para contato@rodolfopeixoto.com.br');</script>';
     }
   }else if ($_POST['submit'] && $humano != '5') {
-     echo '<p>A resposta do anti-spam está incorreta.</p>';
+     echo '<script> alert('A resposta do anti-spam está incorreta.');</script>';
     }
 ?>

@@ -36,9 +36,9 @@ $status = mail($to,$subject, $message, $headers);
     if($status){
          echo '<p>Orçamento enviado com sucesso. Aguarde no máximo 72 horas úteis para que possa entrar em contato.</p>';
     }else{
-    echo '<script>alert('Email não enviado. Envie um email para contato@rodolfopeixoto.com.br');</script>';
+     echo "<script> alert('Email não enviado. Envie um email para contato@rodolfopeixoto.com.br'); </script>";
     }
   }else if ($_POST['submit'] && $humano != '5') {
-     echo '<script> alert('A resposta do anti-spam está incorreta.');</script>';
+     echo "<script> alert('A resposta do anti-spam está incorreta.'); </script>";
     }
 ?>

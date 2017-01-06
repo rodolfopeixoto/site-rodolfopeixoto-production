@@ -33,12 +33,12 @@ $status = mail($to,$subject, $message,$headers);
 
   if($_POST['submit'] && $humano == '10'){
     if($status){
-         echo '<script> alert('Email enviado com sucesso. Aguarde no máximo 1 dia útil para que possa entrar em contato.'); </script>';
+     echo "<script> alert('Email enviado com sucesso. Aguarde no máximo 1 dia útil para que possa entrar em contato.'); </script>";
     }else{
     echo '<p>Email não enviado. Envie um email para contato@rodolfopeixoto.com.br</p>';
     }
   }else if ($_POST['submit'] && $humano != '10') {
-     echo '<script>alert('A resposta do anti-spam está incorreta.');</script>';
+     echo "<script> alert('A resposta do anti-spam está incorreta.'); </script>";
     }
 ?>
 

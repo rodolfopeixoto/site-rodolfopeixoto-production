@@ -1,7 +1,6 @@
-<IfModule mod_headers.c>
-​  KeepAlive On
+<ifModule mod_headers.c>
   Header set Connection keep-alive
-</IfModule>
+</ifModule>
 
 <IfModule mod_expires.c>
 # Enable expirations

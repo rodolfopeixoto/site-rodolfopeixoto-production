@@ -15,21 +15,22 @@ $message = '<html><body>';
 $message .= '<h1 style="color:#f40;">Oi ,Rodolfo!</h1>';
 $message .= '<p style="color:#444;font-size:18px;">Formulário de Orçamento</p>';
 
-$message .= '<p style="color:#444;font-size:18px;">Nome: ' . $name . ' </p>';
-$message .= '<p style="color:#444;font-size:18px;">Email: ' . $email . ' </p>';
-$message .= '<p style="color:#444;font-size:18px;">telefone: ' . $tel . ' </p>';
-$message .= '<p style="color:#444;font-size:18px;">Nome do Projeto:<br> ' . $project_name . ' </p>';
-$message .= '<p style="color:#444;font-size:18px;">Descrição do Projeto:<br> ' . $project_description . ' </p>';
+$message .= '<p style="color:#444;font-size:15px;">Nome: ' . $name . ' </p>';
+$message .= '<p style="color:#444;font-size:15px;">Email: ' . $email . ' </p>';
+$message .= '<p style="color:#444;font-size:15px;">telefone: ' . $tel . ' </p>';
+$message .= '<p style="color:#444;font-size:15px;">Nome do Projeto:<br> ' . $project_name . ' </p>';
+$message .= '<p style="color:#444;font-size:15px;">Descrição do Projeto:<br> ' . $project_description . ' </p>';
 
 $message .= '</body></html>';
+
 
 // To send HTML mail, the Content-type header must be set
 $headers = "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
 // Create email headers
-$headers .= 'From: '.$from."\r\n".
-    'Reply-To: '.$from."\r\n" .
+$headers .= 'From: '.$email."\r\n".
+    'Reply-To: '.$email."\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
 $status = mail($to,$subject, $message, $headers);
@@ -45,5 +46,6 @@ $status = mail($to,$subject, $message, $headers);
   }else if ($_POST['submit'] && $humano != '5') {
      header('Refresh: 1; URL=orcamento.html');
      echo "<script> alert('A resposta do anti-spam está incorreta.'); </script>";
+     header('Location: orcamento.html');
     }
 ?>

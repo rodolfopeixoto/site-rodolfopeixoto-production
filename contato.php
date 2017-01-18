@@ -6,17 +6,17 @@
   $humano   = $_POST['humano'];
   $from     = "site@rodolfopeixoto.com.br";
   $to       = "rodolfog.peixoto@gmail.com";
-  $subject = "Contato - Site Rodolfo Peixoto";
+  $subject  = "Contato - Site Rodolfo Peixoto";
 
 
   // Compose a simple HTML email message
 $message = '<html><body>';
 $message .= '<h1 style="color:#f40;">Oi ,Rodolfo!</h1>';
 $message .= '<p style="color:#444;font-size:18px;">Formulário de Contato</p>';
-$message .= '<p style="color:#444;font-size:18px;">Nome: ' . $nome . ' </p>';
-$message .= '<p style="color:#444;font-size:18px;">Email: ' . $email . ' </p>';
-$message .= '<p style="color:#444;font-size:18px;">telefone: ' . $tel . ' </p>';
-$message .= '<p style="color:#444;font-size:18px;">Mensagem:<br> ' . $message . ' </p>';
+$message .= '<p style="color:#444;font-size:15px;">Nome: ' . $nome . ' </p>';
+$message .= '<p style="color:#444;font-size:15px;">Email: ' . $email . ' </p>';
+$message .= '<p style="color:#444;font-size:15px;">telefone: ' . $tel . ' </p>';
+$message .= '<p style="color:#444;font-size:15px;">Mensagem:<br> ' . $message . ' </p>';
 $message .= '</body></html>';
 
 // To send HTML mail, the Content-type header must be set

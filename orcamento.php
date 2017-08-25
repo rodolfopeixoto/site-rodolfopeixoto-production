@@ -8,7 +8,7 @@
   $to                   = "rodolfog.peixoto@gmail.com";
   $subject              = "Orçamento - Site Rodolfo Peixoto";
 
-  $from     = "site@rodolfopeixoto.com.br";
+  $from     = "rodolfog.peixoto@gmail.com";
 
   // Compose a simple HTML email message
 $message = '<html><body>';

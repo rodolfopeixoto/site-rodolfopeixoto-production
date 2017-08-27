@@ -1,0 +1,84 @@
+/* SKILLS */
+h1.skills {
+    font-size: 2em;
+}
+/*   progress[value] {
+      appearance: none;
+      -moz-appearance:none;
+      border: none;
+    }*/
+
+progress
+{
+    /* turn of styling */
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+    /* no default border in FF and Opera */
+    border: none;
+
+    /* Dimensions */
+    height: 50px;
+}
+
+/* Firefox  */
+progress::-moz-progress  {
+   background: #fff;
+}
+
+progress::-moz-progress-bar {background: #2787be;}
+
+
+/* Chrome */
+progress::-webkit-progress-bar {
+    background: #d0d0d0;
+}
+progress::-webkit-progress-value {
+    background: #2787be;
+}
+progress:not([value])::-webkit-progress-bar {
+  background:#fdd;
+}
+
+
+progress[value]::-webkit-progress-value {
+  background-image:
+     -webkit-linear-gradient(-45deg,
+                             transparent 33%, rgba(0, 0, 0, .1) 33%,
+                             rgba(0,0, 0, .1) 66%, transparent 66%);
+
+    border-radius: 2px;
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+
+progress[value]::-moz-progress-bar {
+  background-image:
+    -moz-linear-gradient(
+      135deg,
+      transparent 33%,
+      rgba(0, 0, 0, 0.1) 33%,
+      rgba(0, 0, 0, 0.1) 66%,
+      transparent 66%
+    ),
+    -moz-linear-gradient(
+      top,
+      rgba(255, 255, 255, 0.25),
+      rgba(0, 0, 0, 0.25)
+    );
+
+  border-radius: 2px;
+  background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+
+.skill h2{
+  font-size: 1.4em;
+  color:#006ec1;
+}
+
+.skill h3{
+  font-size: 1.0em;
+  color:#414141;
+}

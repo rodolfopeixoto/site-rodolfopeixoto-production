@@ -1,0 +1,84 @@
+img {
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+header nav {
+    display: flex;
+}
+
+header nav a{
+    margin: 0 0.5em 0 0.6em;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    border-radius: 0.2em;
+    border: 2px solid #878787;
+    padding: 0.4em;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+header nav a:visited{
+    color: #303036;
+}
+
+header nav a:focus{
+    color: #303036;
+}
+
+
+header nav a:hover{
+    color: #fff;
+    background-color: #2a7fff;
+    border: 2px solid #0095ff;
+}
+header svg {
+    margin-left: 3em;
+}
+
+@media(max-width: 798px) {
+    header {
+        flex-direction: column;
+    }
+
+    header nav {
+        flex-direction: column;
+        width: 100%;
+    }
+    header nav a{
+        padding:0.5em 0 0.5em 0; /* top right bottom left */
+        align-self: center;
+        border-radius: none;
+        border: none;
+    }
+    header nav a:hover{
+      width: 100%;
+      text-align: center;
+      color: #2a7fff;
+      background-color: #fff;
+      border: none;
+      border-radius: 0;
+      border-bottom: 1px solid #303036;
+    }
+
+
+    header nav a:active{
+        color: #2a7fff;
+      }
+
+    header svg {
+        margin-left: 0em;
+    }
+}

@@ -74,12 +74,11 @@ section.production a {
     }
 
     section.production {
-        flex-direction: column;
-        padding: 2em 0 2em 0em;
+        flex-direction: column; 
     }
 
-    section.production article {
-        padding: 0em;
+    section.production article { 
         width: 100%;
+        padding: 2em 0 0 0;
     }
 }

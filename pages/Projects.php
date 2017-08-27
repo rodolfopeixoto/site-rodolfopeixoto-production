@@ -3,26 +3,28 @@
 </section>
 
 <section class="production">
-
-<div class="articles">
-        <article>
-            <h2>SISPICT</h2>
-            <div class="information">
-              <img src="assets/img/sispict.png" />
-              <div class="description"> 
-                  asdasdaaaaaaaaaaaaaa asd asdasd asd asdas dasd asd asda
-              </div>
-              <div class="tecno">
-                <b>Front-end:</b> Bootstrap<br>
-                <b>Back-end:</b> Ruby on Rails 5.1  
-              </div>
-            </div>
-        </article>
-    </div >
+ 
+   <?php include('projects/production/sispict.php'); ?>
+   <?php include('projects/production/refeitoloja.php'); ?>
+   <?php include('projects/production/refeito.php'); ?>
+   <?php include('projects/production/canudo.php'); ?> 
+   <?php include('projects/production/soulcode.php'); ?> 
+   <?php include('projects/production/sebio.php'); ?> 
+   <?php include('projects/production/pedeae.php'); ?> 
+   <?php include('projects/production/seacap.php'); ?> 
+   <?php include('projects/production/eenge.php'); ?> 
+   <?php include('projects/production/engep.php'); ?> 
+   <?php include('projects/production/l2p.php'); ?> 
+   <?php include('projects/production/l2phtml.php'); ?>
+   <?php include('projects/production/rodolfo.php'); ?> 
 
 </section>
 
-
 <section class="projects">
     <h1>Studies</h1>
+</section>
+<section class="production">
+ 
+   <?php include('projects/studies/socialuenf.php'); ?>
+
 </section>

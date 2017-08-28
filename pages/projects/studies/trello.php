@@ -1,6 +1,6 @@
  
         <article>
-            <h2>Twitter Clone</h2>
+            <h2>Trello Clone</h2>
             <div class="information">
             <figure>
                 <img src="assets/img/trellcopc.png" alt="Logo Clone Twitter">
@@ -8,7 +8,7 @@
               <div class="tecno">
               
                 <p>
-                  Aplicativo sendo desenvolvido para levar interação a todas as atléticas em um só lugar.
+                Kanban online. Para organizar a sua vida de forma automatizada.
                 </p>
                 <b>Front-end:</b> Bootstrap<br>
                 <b>Back-end:</b>   Rails 4.2.5

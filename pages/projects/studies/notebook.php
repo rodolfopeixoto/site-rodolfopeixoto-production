@@ -1,17 +1,17 @@
  
         <article>
-            <h2>Twitter Clone</h2>
+            <h2>Agenda</h2>
             <div class="information">
             <figure>
-                <img src="assets/img/twitter.png" alt="Logo Clone Twitter">
+                <img src="assets/img/rogpeNotebook.png" alt="Logo Notebook">
             </figure>
               <div class="tecno">
               
                 <p>
-                  Twitter com react. Interface básica para aprender as práticas do Rails com React
+                  Agenda de contatos para melhorar as técnicas com o Rails 5.1 e Docker e Docker-compose
                 </p>
-                <b>Front-end:</b> ReactJS, Materialize<br>
-                <b>Back-end:</b>   Rails 4.2.5
+                <b>Front-end:</b> Materialize<br>
+                <b>Back-end:</b>   Rails 5.1 e Docker
               </div>
               <a href="https://twittereact.herokuapp.com/users/sign_in" target="_blank"><b>Acessar</b></a>
             </div>

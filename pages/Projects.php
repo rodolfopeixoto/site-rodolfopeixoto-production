@@ -28,5 +28,11 @@
  
    <?php include('projects/studies/twitter.php'); ?>
    <?php include('projects/studies/trello.php'); ?>
+   <?php include('projects/studies/notebook.php'); ?>
+   <?php include('projects/studies/plus.php'); ?>
+   <?php include('projects/studies/elastic.php'); ?>
+   <?php include('projects/studies/bolsaecma.php'); ?>
+
+   
 
 </section>

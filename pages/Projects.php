@@ -17,6 +17,7 @@
    <?php include('projects/production/l2p.php'); ?> 
    <?php include('projects/production/l2phtml.php'); ?>
    <?php include('projects/production/rodolfo.php'); ?> 
+   <?php include('projects/production/socialuenf.php'); ?>
 
 </section>
 
@@ -25,6 +26,7 @@
 </section>
 <section class="production">
  
-   <?php include('projects/studies/socialuenf.php'); ?>
+   <?php include('projects/studies/twitter.php'); ?>
+   <?php include('projects/studies/trello.php'); ?>
 
 </section>

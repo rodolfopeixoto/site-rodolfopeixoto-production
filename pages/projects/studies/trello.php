@@ -10,9 +10,9 @@
                 <p>
                   Aplicativo sendo desenvolvido para levar interação a todas as atléticas em um só lugar.
                 </p>
-                <b>Front-end:</b> ReactJS, Materialize<br>
+                <b>Front-end:</b> Bootstrap<br>
                 <b>Back-end:</b>   Rails 4.2.5
               </div>
-              <a href="https://twittereact.herokuapp.com/users/sign_in" target="_blank"><b>Acessar</b></a>
+              <a href="https://trellogenerico.herokuapp.com/" target="_blank"><b>Acessar</b></a>
             </div>
         </article> 

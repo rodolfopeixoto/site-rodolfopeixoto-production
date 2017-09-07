@@ -1,0 +1,113 @@
+body {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: "Open Sans", sans-serif; }
+
+h1 {
+  font-size: 48px;
+  line-height: 1.35;
+  font-weight: 700;
+  font-family: "Source Sans Pro", sans-serif; }
+
+h2 {
+  font-size: 36px;
+  line-height: 1.4;
+  font-weight: 700;
+  font-family: "Source Sans Pro", sans-serif; }
+
+h3 {
+  font-size: 30px;
+  line-height: 1.5;
+  font-weight: 700;
+  font-family: "Source Sans Pro", sans-serif; }
+
+h4 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 700;
+  font-family: "Source Sans Pro", sans-serif; }
+
+.site-btn {
+  font-size: 14px;
+  line-height: 1.45;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Source Sans Pro", sans-serif; }
+
+.logo {
+  font-size: 30px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700; }
+
+.main-menu ul li a {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700; }
+
+.colored-link {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700; }
+
+.about-me-info {
+  font-size: 14px; }
+
+.fonts-icons {
+  font-size: 14px; }
+
+.span-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", sans-serif; }
+
+.about-row .color-h4 {
+  font-style: italic; }
+
+.portfolio-sort ul li {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700; }
+
+.portfolio-box .portfolio-name {
+  font-weight: 700;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px; }
+
+.portfolio-box .portfolio-date {
+  font-size: 14px; }
+
+.form-wrapper input[type=text],
+.form-wrapper input[type=email] {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif; }
+
+.form-wrapper textarea {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif; }
+
+.form-wrapper .custom-select-box {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif; }
+
+.copyright {
+  font-size: 14px; }
+
+.mobile-menu ul li a {
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700; }
+
+.modal-body .modal-title {
+  font-size: 48px;
+  line-height: 1.35;
+  font-weight: 700;
+  font-family: "Source Sans Pro", sans-serif; }
+
+/*# sourceMappingURL=maps/typography.css.map */

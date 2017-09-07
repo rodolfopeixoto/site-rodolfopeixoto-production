@@ -1,0 +1,80 @@
+body {
+	color: #082639; }
+
+#page-preloader .spinner:before {
+	border-top-color: #3333ff; }
+
+.site-btn {
+	background: #3333ff; }
+
+.site-btn.gray-btn {
+	color: #082639; }
+
+.site-btn.gray-btn:hover, .site-btn.gray-btn.hover {
+	-webkit-box-shadow: 10px 10px 20px rgba(37, 37, 37, 0.2);
+	box-shadow: 10px 10px 20px rgba(37, 37, 37, 0.2); }
+
+.site-btn.gray-btn:active, .site-btn.gray-btn.active {
+	background: #c7c7c7;
+	-webkit-box-shadow: 10px 10px 20px rgba(37, 37, 37, 0.2);
+	box-shadow: 10px 10px 20px rgba(37, 37, 37, 0.2); }
+
+.site-btn:hover, .site-btn.hover {
+	-webkit-box-shadow: 10px 10px 20px rgba(51, 51, 255, 0.4);
+	box-shadow: 10px 10px 20px rgba(51, 51, 255, 0.4); }
+
+.site-btn:active, .site-btn.active {
+	background: #3030d3;
+	-webkit-box-shadow: 10px 10px 20px rgba(48, 48, 211, 0.4);
+	box-shadow: 10px 10px 20px rgba(48, 48, 211, 0.4); }
+
+.point:after {
+	color: #3333ff; }
+
+.main-menu ul li a:hover {
+	color: #3333ff; }
+
+.colored-link:hover, .colored-link:active, .colored-link.hover, .colored-link.active {
+	color: #3333ff; }
+
+a.fonts-icons:hover, a.fonts-icons.hover {
+	color: #3333ff; }
+
+a.fonts-icons:active, a.fonts-icons.active {
+	color: #3333ff; }
+
+.about-row .color-h4 {
+	color: #3333ff; }
+
+.portfolio-box:hover .portfolio-name, .portfolio-box.hover .portfolio-name, .portfolio-box:active .portfolio-name, .portfolio-box.active .portfolio-name {
+	color: #3333ff; }
+
+.form-wrapper .custom-select-box .custom-select-button:after {
+	color: #3333ff; }
+
+.mobile-btn {
+	float: right;
+	margin-top: 12px; }
+
+.mobile-btn > div {
+	background: #3333ff; }
+
+.mob-menu-wrapper {
+	background: #3333ff; }
+
+.wave-bg .zigzag svg:last-child polyline {
+	stroke: #3333ff; }
+
+.duotone-box:after {
+	display: block; }
+
+.duotone-box img {
+	-webkit-filter: grayscale(100%) contrast(1.2);
+	filter: grayscale(100%) contrast(1.2); }
+
+.portfolio-box:hover .duotone-box:after {
+	width: 0; }
+
+.portfolio-box:hover .duotone-box img {
+	-webkit-filter: grayscale(0) contrast(1);
+	filter: grayscale(0) contrast(1); }

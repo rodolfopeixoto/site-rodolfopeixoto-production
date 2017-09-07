@@ -1,0 +1,81 @@
+@media screen and (min-width: 992px) {
+  .portfolio-box {
+    max-width: 270px; }
+  body.modal-open .header {
+    padding-right: 17px; } }
+
+@media screen and (max-width: 991px) {
+  body {
+    font-size: 14px; }
+  .logo {
+    font-size: 24px; }
+  .about-img-wrap {
+    float: none;
+    text-align: center; }
+  .about-img {
+    display: inline-block;
+    margin-bottom: 30px; }
+  h1, .modal-body .modal-title {
+    font-size: 36px; }
+  h4 {
+    font-size: 18px; }
+  .wave-bg .zigzag {
+    display: none; }
+  .section-sidebar,
+  .section-small-padding .section-sidebar {
+    padding: 0;
+    margin-bottom: 30px; }
+  .about-date {
+    text-align: left; }
+  .col-md-8 > .about-row {
+    margin-bottom: 20px !important; }
+  .header {
+    padding: 23px 0; }
+  .container {
+    padding: 0 30px; }
+  .section {
+    padding: 30px 0; }
+  .section.section-small-padding {
+    padding: 30px 0 5px; }
+  .footer {
+    padding: 30px 0 31px; }
+  #hello {
+    margin-top: 80px; }
+  .about-me-title,
+  .section-sidebar h2 {
+    margin-bottom: 8px; }
+  .advantages-box h4,
+  .about-row .color-h4 {
+    margin-bottom: 9px; }
+  .about-date {
+    margin-bottom: 36px; }
+  .portfolio-box {
+    margin-bottom: 30px; } }
+
+@media screen and (max-width: 890px) {
+  .modal-dialog {
+    width: 100%;
+    margin: 0; }
+  .modal-body {
+    padding: 40px 20px 30px; }
+  .modal-body .close {
+    top: 15px;
+    right: 15px; } }
+
+@media screen and (max-width: 480px) {
+  .portfolio .mix {
+    width: 100%; }
+  .about-btns .site-btn {
+    margin-right: 0;
+    margin-bottom: 30px;
+    width: 100%; }
+  .about-btns .site-btn.gray-btn {
+    margin-bottom: 0; }
+  .submit-holder .site-btn {
+    width: 100%; }
+  .modal-body .modal-form .submit-holder .site-btn {
+    margin: 0; }
+  .modal-body .modal-form .submit-holder input.site-btn {
+    margin-bottom: 30px; } }
+
+/*# sourceMappingURL=maps/responsive.css.map */

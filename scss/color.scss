@@ -1,0 +1,125 @@
+$accent-color: #f95231;
+$active-color: #cf492f;
+$text-color: #082639;
+
+body {
+  color: $text-color;
+}
+
+#page-preloader .spinner:before {
+  border-top-color: $accent-color;
+}
+
+.site-btn {
+  background: $accent-color;
+
+  &.gray-btn {
+    color: $text-color;
+
+    &:hover,
+    &.hover {
+      box-shadow: 10px 10px 20px rgba(#252525, 0.2);
+    }
+
+    &:active,
+    &.active {
+      background: #c7c7c7;
+      box-shadow: 10px 10px 20px rgba(#252525, 0.2);
+    }
+  }
+
+  &:hover,
+  &.hover {
+    box-shadow: 10px 10px 20px rgba($accent-color, 0.4);
+  }
+
+  &:active,
+  &.active {
+    background: $active-color;
+    box-shadow: 10px 10px 20px rgba($active-color, 0.4);
+  }
+}
+
+.point:after {
+  color: $accent-color;
+}
+
+.main-menu {
+  ul {
+    li {
+      a:hover {
+        color: $accent-color;
+      }
+    }
+  }
+}
+
+.colored-link {
+
+  &:hover, &:active,
+  &.hover, &.active{
+    color: $accent-color;
+  }
+}
+
+a.fonts-icons {
+  &:hover,
+  &.hover {
+    color: $accent-color;
+  }
+  &:active,
+  &.active {
+    color: $accent-color;
+  }
+}
+
+.about-row {
+  .color-h4 {
+    color: $accent-color;
+  }
+}
+
+.portfolio-box {
+
+  &:hover, &.hover,
+  &:active, &.active {
+
+    .portfolio-name {
+      color: $accent-color;
+    }
+  }
+}
+
+.form-wrapper {
+  .custom-select-box {
+    .custom-select-button {
+      &:after {
+        color: $accent-color;
+      }
+    }
+  }
+}
+
+.mobile-btn {
+  float: right;
+  margin-top: 12px;
+
+  > div {
+    background: $accent-color;
+  }
+}
+
+.mob-menu-wrapper {
+  background: $accent-color;
+}
+
+.wave-bg {
+  .zigzag {
+    svg:last-child {
+      polyline {
+        stroke: $accent-color;
+      }
+    }
+  }
+}
+

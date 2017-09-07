@@ -1,0 +1,66 @@
+body {
+    color: #082639; }
+
+#page-preloader .spinner:before {
+    border-top-color: #3857CF; }
+
+.site-btn {
+    background: #3857CF; }
+
+.site-btn.gray-btn {
+    color: #082639; }
+
+.site-btn.gray-btn:hover, .site-btn.gray-btn.hover {
+    -webkit-box-shadow: 10px 10px 20px rgba(37, 37, 37, 0.2);
+    box-shadow: 10px 10px 20px rgba(37, 37, 37, 0.2); }
+
+.site-btn.gray-btn:active, .site-btn.gray-btn.active {
+    background: #c7c7c7;
+    -webkit-box-shadow: 10px 10px 20px rgba(37, 37, 37, 0.2);
+    box-shadow: 10px 10px 20px rgba(37, 37, 37, 0.2); }
+
+.site-btn:hover, .site-btn.hover {
+    -webkit-box-shadow: 10px 10px 20px rgba(249, 82, 49, 0.4);
+    box-shadow: 10px 10px 20px rgba(249, 82, 49, 0.4); }
+
+.site-btn:active, .site-btn.active {
+    background: #cf492f;
+    -webkit-box-shadow: 10px 10px 20px rgba(207, 73, 47, 0.4);
+    box-shadow: 10px 10px 20px rgba(207, 73, 47, 0.4); }
+
+.point:after {
+    color: #3857CF; }
+
+.main-menu ul li a:hover {
+    color: #3857CF; }
+
+.colored-link:hover, .colored-link:active, .colored-link.hover, .colored-link.active {
+    color: #3857CF; }
+
+a.fonts-icons:hover, a.fonts-icons.hover {
+    color: #3857CF; }
+
+a.fonts-icons:active, a.fonts-icons.active {
+    color: #3857CF; }
+
+.about-row .color-h4 {
+    color: #3857CF; }
+
+.portfolio-box:hover .portfolio-name, .portfolio-box.hover .portfolio-name, .portfolio-box:active .portfolio-name, .portfolio-box.active .portfolio-name {
+    color: #3857CF; }
+
+.form-wrapper .custom-select-box .custom-select-button:after {
+    color: #3857CF; }
+
+.mobile-btn {
+    float: right;
+    margin-top: 12px; }
+
+.mobile-btn > div {
+    background: #3857CF; }
+
+.mob-menu-wrapper {
+    background: #3857CF; }
+
+.wave-bg .zigzag svg:last-child polyline {
+    stroke: #3857CF; }
